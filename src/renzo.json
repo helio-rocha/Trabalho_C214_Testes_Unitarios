@@ -1,0 +1,7 @@
+{
+    "nomeDoProfessor": "Renzo",
+    "horarioDeAtendimento": "19:30",
+    "periodo": "Noturno",
+    "sala": "3",
+    "predio": ["1", "2", "3", "4", "5", "6"]
+}
