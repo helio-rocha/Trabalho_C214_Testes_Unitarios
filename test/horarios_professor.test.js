@@ -2,7 +2,6 @@ const { HorariosProfessor } = require("../src/horarios_professor");
 const { BuscarProfessor } = require("../src/buscar_professor");
 
 describe("Testando os horários dos professores", () => {
-  // Criando um mock para a função soma
   let id;
   let getProfessorMock;
   let buscarProfessor;
@@ -25,6 +24,8 @@ describe("Testando os horários dos professores", () => {
 
     expect(json).toBe(cris);
   });
+
+  // Testes felizes
 
   it("Testando nome do professor 2f", () => {
    
